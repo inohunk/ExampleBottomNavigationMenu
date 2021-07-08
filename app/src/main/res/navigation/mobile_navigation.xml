@@ -19,10 +19,11 @@
         <action
             android:id="@+id/action_navigation_dashboard_to_blankFragment"
             app:destination="@id/blankFragment"
-            app:enterAnim="@anim/fragment_enter"
-            app:exitAnim="@anim/fragment_exit"
-            app:popEnterAnim="@anim/fade_out"
-            app:popExitAnim="@anim/fade_in" />
+            app:enterAnim="@anim/enter_from_left"
+            app:exitAnim="@anim/exit_to_left"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            />
     </fragment>
 
     <fragment
